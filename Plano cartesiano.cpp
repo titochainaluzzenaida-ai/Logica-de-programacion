@@ -2,21 +2,21 @@
 using namespace std;
 int main ()
 {
-    int a,b;
-    cin>>a>>b;
-    if (a>0 && b>0)
+    int x,y;
+    cin>>x>>y;
+    if (x>0 && y>0)
     {
         cout<<"Primer cuadrante";
     }
-    if (a<0 && b>0)
+    if (x<0 && y>0)
     {
         cout<<"Segundo cuadrante";
     }
-    if (a<0 && b<0)
+    if (x<0 && y<0)
     {
         cout<<"Tercer cuadrante";
     }
-    if (a>0 && b<0)
+    if (x>0 && y<0)
     {
         cout<<"Cuarto cuadrante";
     }
